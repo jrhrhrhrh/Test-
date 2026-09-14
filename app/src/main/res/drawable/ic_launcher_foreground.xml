@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer accent ring -->
+    <path
+        android:pathData="M54,23 C71.12,23 85,36.88 85,54 C85,71.12 71.12,85 54,85 C36.88,85 23,71.12 23,54 C23,36.88 36.88,23 54,23 Z"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="23"
+                android:startY="23"
+                android:endX="85"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Film reel notch accents -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M51,21 h6 v4 h-6 z" />
+    <path
+        android:fillColor="#C084FC"
+        android:pathData="M51,83 h6 v4 h-6 z" />
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M21,51 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M83,51 h4 v6 h-4 z" />
+    <!-- Center Play Triangle with soft rounded corners -->
+    <path
+        android:pathData="M44,38 L70,54 L44,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="38"
+                android:endX="70"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.7" android:color="#E0F2FE" />
+                <item android:offset="1.0" android:color="#BAE6FD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
